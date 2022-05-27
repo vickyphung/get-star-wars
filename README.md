@@ -3,7 +3,6 @@
 React.js
 
 JavaScript
-JXS
 CSS3
 HTML5
 
@@ -16,5 +15,5 @@ events
 form-data
 
 fetch api,
-uses star wars api - swapi.dev
+uses star wars api @ swapi.dev
 
