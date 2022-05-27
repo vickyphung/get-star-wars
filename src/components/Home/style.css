@@ -14,7 +14,7 @@
     margin-top:5px;
     top:0;
     left:0; */
-    margin-top: 3em;
+    margin-top: 2em;
     width: fit-content;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .searchDropdown {
-    border: 5px solid rgba(255, 255, 7, 0.753);
+    border: 5px solid rgba(60, 63, 60, 0.651);
     font-size: 2.3em;
     padding: 10px;
     margin-bottom: 1em;
@@ -55,7 +55,7 @@
 }
 
 .formInput {
-    border: 5px solid rgba(255, 255, 0, 0.651);
+    border: 5px solid rgba(60, 63, 60, 0.651);
     font-size: 3.5em;
     width: 80%;
     margin-bottom: 1rem;
@@ -67,25 +67,29 @@
     font-size: 1.5rem;
     border-radius: .5em;
     margin-left: 20px;
-    border: 5px solid rgba(255, 251, 0, 0.733);
+    border: 5px solid rgba(232, 238, 232, 0.863);
     text-align: center;
     padding: 10px 20px;
-    background-color: rgb(255, 255, 255);
-    color: 666;
+    background-color: rgb(148, 142, 142);
+    color: white;
 }
 .submitBtn:active {
-    background-color: #eeff00;
+    border: #eeff00;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
 .submitBtn:hover{
-    background-color: rgb(255, 255, 0);
+    border: 5px solid white;
 }
 
-/* .searchCategory, .searchKeywords {
-    
-} */
-
+.searchCategory, .searchKeywords {
+    border: 5px solid rgb(75, 75, 71);
+    padding: 15px;
+    border-radius: 1em;
+}
+.searchCategory {
+    margin-bottom: 8px;
+}
 ::placeholder {
     font-style: italic;
     font-size: .3em;

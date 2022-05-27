@@ -20,7 +20,7 @@ const Home = (props) => {
         <div className='searchContainer'>
 
           <div className='searchCategory'>
-          <p className='searchTitle'>Choose a Category:</p>
+          <p className='searchTitle'>Pick a category</p>
             <select className='searchDropdown' id="type" name="type" onChange={props.handleChange} >
             {/* <label className='formLabels'>Category:</label> */}
               <option value="people" >People</option>
@@ -32,7 +32,7 @@ const Home = (props) => {
           </div>
 
           <div className='searchKeywords'>
-          <p className='searchTitle'>Enter Search Keywords:</p>
+          <p className='searchTitle'>Type what you want to search</p>
           <div>
           <form  onSubmit={props.handleSubmit}>
             {/* <label className='formLabels' htmlFor="search">Search: </label> */}
