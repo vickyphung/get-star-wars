@@ -1,0 +1,108 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #000 url(//cssanimation.rocks/demo/starwars/images/bg.jpg);
+    align-items: center;
+    height: 90vh;
+}
+
+.header {
+    /* position:absolute;
+    padding:0;
+    margin-top:5px;
+    top:0;
+    left:0; */
+    margin-top: 3em;
+    width: fit-content;
+}
+
+.indexBody {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    /* border: 5px solid red; */
+    justify-content: center;
+}
+
+.searchContainer {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 3em;
+    margin-left: 15em;
+}
+
+
+.searchTitle {
+    margin: 0;
+    margin-bottom: .8em;
+    font-size: 2.5em;
+    width: 100%;
+
+}
+
+.searchDropdown {
+    border: 5px solid rgba(255, 255, 7, 0.753);
+    font-size: 2.3em;
+    padding: 10px;
+    margin-bottom: 1em;
+    width: 70%;
+    border-radius: .3em;
+    margin-left: 20px;
+}
+
+.formInput {
+    border: 5px solid rgba(255, 255, 0, 0.651);
+    font-size: 3.5em;
+    width: 80%;
+    margin-bottom: 1rem;
+    border-radius: .2em;
+    margin-left: 20px;
+}
+
+.submitBtn {
+    font-size: 1.5rem;
+    border-radius: .5em;
+    margin-left: 20px;
+    border: 5px solid rgba(255, 251, 0, 0.733);
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    color: 666;
+}
+.submitBtn:active {
+    background-color: #eeff00;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.submitBtn:hover{
+    background-color: rgb(255, 255, 0);
+}
+
+/* .searchCategory, .searchKeywords {
+    
+} */
+
+::placeholder {
+    font-style: italic;
+    font-size: .3em;
+    padding-left: 30px;
+  }
+
+
+/* 
+  @media only screen and (max-width: 1000px) {
+    .indexBody {
+        margin-top: 50%;
+        }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .indexBody {
+        margin-top: 70%;
+        }
+  }
+ */
